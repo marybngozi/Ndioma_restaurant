@@ -1,0 +1,17 @@
+*{
+  color: rgb(180, 105, 7) !important;
+}
+header{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../images/banner.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+
+#logo{
+  width: 120px;
+}
+
+.nav-link{
+  color: rgb(180, 105, 7) !important;
+}
