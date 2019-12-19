@@ -1,17 +1,97 @@
 *{
-  color: rgb(180, 105, 7) !important;
+  color: #b46907;
+  padding: 0;
+  margin: 0;
+}
+body{
+  height:auto;
+}
+.btn-ndioma{
+  color: #fff;
+  background-color: #ca7709;
+  border-color: #ca7709;
 }
 header{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url(../images/banner.jpeg);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7), rgba(240, 230, 230, 0.4));
   background-size: cover;
   background-position: center;
-  height: 60vh;
+  height: 70vh;
 }
-
 #logo{
   width: 120px;
 }
-
 .nav-link{
-  color: rgb(180, 105, 7) !important;
+  width: 90px;
+  border-bottom: 2px solid #ca7709;
+  margin-right: 10px;
+}
+.navbar-toggler{
+  background-color: #fff;
+}
+.banner_view{
+  background-image: url("../images/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  /* padding: 2rem; */
+}
+.head_in{
+  color: #333;
+  font-weight: bolder;
+}
+.action_btn, .action_btn_fill{
+  color: #ca7709;
+  border-radius: 50px;
+  font-weight: 700;
+  border: 2px solid #ca7709;
+}
+.action_btn_fill{
+  background: #ca7709;
+  color: #fff;
+}
+.action_btn:hover, .action_btn:active {
+  color: #fff;
+  font-weight: 700;
+  background-color: #ca7709;
+  border-color: #ca7709;
+}
+.action_btn_fill:hover, .action_btn_fill:active,
+.action_btn_fill:focus {
+  color: #ca7709 !important;
+  font-weight: 700 !important;
+  background-color: #fff !important;
+  border-color: #ca7709 !important;
+  box-shadow: none !important;
+}
+
+main{
+  color: #555;
+}
+.service_sect{
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.serv_head{
+  color: #333;
+
+  /* width: 100px; */
+  /* text-align: center; */
+  /* border-bottom: 1px solid #ca7709; */
+}
+.serv_head::after {
+  display: block;
+  height: 2px;
+  background-color: #ca7709;
+  content: "";
+  width: 80px;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.card_header{
+  font-size: 1.2em;
+}
+.card-text{
+  color: #333;
+  font-size: 1.3em;
 }

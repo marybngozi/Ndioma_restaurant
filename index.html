@@ -11,10 +11,10 @@
 
   <title>Ndioma | Home</title>
 </head>
-<body class="container-fluid">
+<body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-      <a href="#" class="navbar-brand"><img id="logo" src="images/logo.png" alt="Ndioma logo"></a>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <a href="index.html" class="navbar-brand"><img id="logo" src="images/logo.png" alt="Ndioma logo"></a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler1">
         <span class="navbar-toggler-icon "></span>
@@ -22,44 +22,46 @@
 
       <div class="collapse navbar-collapse" id="navbarToggler1">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="" class="nav-link">About Us</a></li>
-          <li class="nav-item"><a href="" class="nav-link">Services</a></li>
-          <li class="nav-item"><a href="" class="nav-link">Foods</a></li>
-          <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
+          <li class="nav-item font-weight-bold"><a href="" class="nav-link">About Us</a></li>
+          <li class="nav-item font-weight-bold"><a href="" class="nav-link">Services</a></li>
+          <li class="nav-item font-weight-bold"><a href="" class="nav-link">Contact</a></li>
         </ul>
       </div>
     </nav>
-    <div class="jumbotron bg-transparent text-center">
-      <h2><small>*****</small>Welcome to<small>*****</small></h>
-      <h1>Ndioma Eatery and Event Center</h1>
+    <div class="jumbotron bg-transparent banner_view">
+      <div class="row">
+        <div class="col-9 banner_left">
+          <h1 class="display-7 justify-content-left head_in">Eatries & <br> Events Center</h1>
+          <a href="#" class="btn btn-outline-warning action_btn" role="button">Explore our Menu</a>
+        </div>
+        <div class="col-3 banner_right">
+          <a href="#" class="btn btn-warning action_btn_fill" role="button">Book Events</a>      </div>
+      </div>
     </div>
   </header>
 
-  <main>
-    <section class="">
-      <h3 class="text-center">Services</h3>
-      <div class="row">
-        <div class="col-lg-4 col-md-6 col-xs-12">
-          <div class="card">
-            <div class="card-header">Header</div>
-            <div class="card-body">Content</div>
-            <div class="card-footer">Footer</div>
+  <main class="container-fluid">
+    <section class="service_sect">
+      <h3 class="text-center serv_head">Our Services</h3>
+      <div class="row justify-content-around">
+        <div class="col-lg-5 col-md-6 col-xs-12">
+          <div class="card mb-3">
+            <div class="card-header card_header font-weight-bolder">GET FOOD FAST - NOT FAST FOOD</div>
+            <img src="images/unnamed.jpg" alt="" class="card-img-top" height="300px">
+            <div class="card-body">
+              <p class="card-text">Hello, we’re Ndioma, your new premium healthy eatries. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!</p>
+              <a href="#" class="btn btn-ndioma font-weight-bold">View more</a>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-xs-12">
-          <div class="card">
-            <div class="card-header">Header</div>
-            <div class="card-body">Content</div>
-            <div class="card-footer">Footer</div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-xs-12">
-          <div class="card">
-            <div class="card-header">Header</div>
-            <div class="card-body">Content</div>
-            <div class="card-footer">Footer</div>
-          </div>
+        <div class="col-lg-5 col-md-6 col-xs-12">
+          <div class="card  mb-3">
+            <div class="card-header card_header font-weight-bolder">AWESOME EVENTS CENTER</div>
+            <img src="images/event_banner.jpeg" alt="" class="card-img-top" height="300px">
+            <div class="card-body">
+              <p class="card-text">Lorem ipsum dolor sit amet, cons rem eos enim maxime dolor? Ad, tempora ullam!  quidem nostrum ratione laborum impeditluptates eligendi perferendis , aspernatur eaque ullam minus?</p>
+              <a href="#" class="btn btn-ndioma font-weight-bold">View more</a>
+            </div>
         </div>
       </div>
     </section>
@@ -72,5 +74,7 @@
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
 </body>
 </html>
