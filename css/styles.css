@@ -1,5 +1,5 @@
 *{
-  color: #b46907;
+  /* color: #b46907; */
   padding: 0;
   margin: 0;
 }
@@ -19,7 +19,7 @@ header{
   background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7), rgba(240, 230, 230, 0.4));
   background-size: cover;
   background-position: center;
-  height: 70vh;
+  height: 80vh;
 }
 #logo{
   width: 120px;
@@ -76,6 +76,7 @@ main{
   color: #555;
 }
 .service_sect{
+  color: #ca7709;
   margin-top: 30px;
   margin-bottom: 15px;
 }
@@ -92,10 +93,34 @@ main{
   margin-top: 5px;
   margin-bottom: 15px;
 }
+.card{
+  border: none;
+}
 .card_header{
   font-size: 1.2em;
+  background-color: transparent;
 }
 .card-text{
   color: #333;
   font-size: 1.3em;
+}
+.mission_text{
+  color: #555 !important;
+}
+footer{
+  height: 250px;
+}
+.bg_ndioma_dark{
+  background: #555;
+  color: #fff !important;
+}
+.social_link{
+  padding: .75rem 0.25rem;
+}
+.authored{
+  text-align: right;
+}
+.authored a{
+  color: #aaa;
+  text-decoration: none;
 }
