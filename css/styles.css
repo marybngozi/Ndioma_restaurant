@@ -5,6 +5,10 @@
 }
 body{
   height:auto;
+  width: 100%;
+}
+.ndioma_color {
+  color: #ca7709;
 }
 .btn-ndioma{
   color: #fff;
@@ -28,12 +32,16 @@ header{
 .navbar-toggler{
   background-color: #fff;
 }
+#navbarToggler1 {
+  background: #fff;
+}
 .banner_view{
   background-image: url("../images/banner.png");
   background-repeat: no-repeat;
   background-position: center;
   height: 400px;
-  /* padding: 2rem; */
+  margin-top: 5rem;
+  /* padding: 6rem 2rem 4rem 2rem; */
 }
 .head_in{
   color: #333;
@@ -73,10 +81,6 @@ main{
 }
 .serv_head{
   color: #333;
-
-  /* width: 100px; */
-  /* text-align: center; */
-  /* border-bottom: 1px solid #ca7709; */
 }
 .serv_head::after {
   display: block;
