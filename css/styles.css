@@ -1,11 +1,13 @@
+html{
+  width: 100%;
+  overflow-x: hidden!important;
+}
 *{
-  /* color: #b46907; */
   padding: 0;
   margin: 0;
 }
 body{
-  height:auto;
-  width: 100%;
+  overflow-x: hidden !important;
 }
 .ndioma_color {
   color: #ca7709;
@@ -19,10 +21,10 @@ header{
   background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7), rgba(240, 230, 230, 0.4));
   background-size: cover;
   background-position: center;
-  height: 80vh;
+  /* height: 80vh; */
 }
 #logo{
-  width: 120px;
+  width: 115px;
 }
 .nav-link{
   width: 90px;
@@ -32,8 +34,22 @@ header{
 .navbar-toggler{
   background-color: #fff;
 }
-#navbarToggler1 {
+.navbarToggler {
   background: #fff;
+}
+.nav_bar-still{
+  background: #fff;
+}
+.nav_bar-scroll{
+  background: #ca7709;
+}
+.navbar_btn-still{
+  background: #ca7709;
+  color: #fff;
+}
+.navbar_btn-scroll{
+  background: #fff;
+  color: #ca7709;
 }
 .banner_view{
   background-image: url("../images/banner.png");
@@ -41,7 +57,6 @@ header{
   background-position: center;
   height: 400px;
   margin-top: 5rem;
-  /* padding: 6rem 2rem 4rem 2rem; */
 }
 .head_in{
   color: #333;
@@ -102,13 +117,14 @@ main{
 }
 .card-text{
   color: #333;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 .mission_text{
-  color: #555 !important;
+  color: #7d7979 !important;
+  font-size: 1.1em;
 }
 footer{
-  height: 250px;
+  height: 260px;
 }
 .bg_ndioma_dark{
   background: #555;
@@ -117,10 +133,7 @@ footer{
 .social_link{
   padding: .75rem 0.25rem;
 }
-.authored{
-  text-align: right;
-}
-.authored a{
+a.authored {
   color: #aaa;
   text-decoration: none;
 }
